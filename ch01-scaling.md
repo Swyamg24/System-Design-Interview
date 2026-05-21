@@ -29,4 +29,8 @@ similar as load balancing in servers but for the db
 master db is for all read , write and other modification commands 
 slave db is for read operation only
 
+## Cache ##
+Temporary storage for keeping frequently fetched data or expensive data.
+improves the performance of application by avoiding repeated calling of db.
+
 
