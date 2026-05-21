@@ -33,4 +33,5 @@ slave db is for read operation only
 Temporary storage for keeping frequently fetched data or expensive data.
 improves the performance of application by avoiding repeated calling of db.
 
+## Cache tier ##
 
