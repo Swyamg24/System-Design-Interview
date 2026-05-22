@@ -34,4 +34,13 @@ Temporary storage for keeping frequently fetched data or expensive data.
 improves the performance of application by avoiding repeated calling of db.
 
 ## Cache tier ##
+Extra storage layer between db and web server .
+improves the speed of system , and we can increase cache tier accordingly.
+we must consider various policy while implementing cache tier like expiry , eviction , mitigation and when to decide cache .
+
+## Content delivery network (CDN) ##
+servers that cache static content like images , videos , css , JS.
+physically located servers provided by 3rd parties .
+geographical distance increases time for data transfer.
+considerations include cost , fallback .
 
